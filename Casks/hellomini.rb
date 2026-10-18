@@ -1,6 +1,6 @@
 cask "hellomini" do
-  version "0.11.0"
-  sha256 "b664be8c18a9ca10f500da680f12d5f7df3e2667ce33ab34aac204d527a7915b"
+  version "0.12.0"
+  sha256 "a31bc893a1acbc51efb5ef1f251c6b8b385bd20f622b4ae0af559eb4fe0c9966"
 
   url "https://github.com/emmettl/hellomini/releases/download/v#{version}/Hello-Mini-#{version}-macos-arm64.zip"
   name "Hello Mini"
