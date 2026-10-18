@@ -4,7 +4,7 @@ cask "bombcad" do
 
   url "https://github.com/emmettl/bombcad/releases/download/v#{version}/BombCAD-#{version}-macos-arm64.zip"
   name "BombCAD"
-  desc "Blast, structural response and hazard simulator for macOS"
+  desc "Blast, structural response and hazard simulator"
   homepage "https://github.com/emmettl/bombcad"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "bombcad" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "BombCAD.app"
   binary "#{appdir}/BombCAD.app/Contents/MacOS/BombCAD", target: "bombcad"
