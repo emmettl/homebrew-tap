@@ -1,6 +1,6 @@
 cask "bombcad" do
-  version "0.7.4"
-  sha256 "063b1817f5130dda7908b3315b39a0709deedda7cae49cc6add89dc8290e5d8f"
+  version "0.7.5"
+  sha256 "97444b5c88abce68ac6aa9f2bd5df4224c87cf0d5cb5077bd61d99308f7111c2"
 
   url "https://github.com/emmettl/bombcad/releases/download/v#{version}/BombCAD-#{version}-macos-arm64.zip"
   name "BombCAD"
